@@ -17,7 +17,7 @@ function Home() {
         }
     }, [authStatus]);
 
-    if (authStatus === true) {
+    if (authStatus===false) {
         return (
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
