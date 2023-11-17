@@ -2,8 +2,6 @@
 
 This is a full-stack React blog app that allows users to create, edit, and delete blog posts, sign up, sign in, and manage their profiles.
 
-![App Screenshot](link-to-your-screenshot.png)
-
 ## Live Demo
 
 Check out the live demo of this app hosted on [Netlify](https://krishclonespotify.netlify.app/).
