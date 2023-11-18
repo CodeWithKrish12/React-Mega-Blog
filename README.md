@@ -4,7 +4,7 @@ This is a full-stack React blog app that allows users to create, edit, and delet
 
 ## Live Demo
 
-Check out the live demo of this app hosted on [Netlify](https://krishclonespotify.netlify.app/).
+Check out the live demo of this app hosted on [Netlify](https://appwritereactblog.vercel.app/).
 
 ## Features
 
@@ -49,13 +49,9 @@ Contributions are welcome! To contribute to this project:
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Submit a pull request
 
-## License
-
-This project is licensed under the [MIT License](link-to-your-license-file).
-
 ## Contact
 
-If you have any questions or suggestions, feel free to contact [Your Name](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to contact [Krish Kalaria](codewithkrish12@gmail.com).
 
 ---
 
