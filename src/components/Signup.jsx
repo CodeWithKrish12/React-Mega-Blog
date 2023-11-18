@@ -18,8 +18,14 @@ function Signup() {
             const userData = await authService.createAccount(data)
             if (userData) {
                 const userData = await authService.getCurrentUser()
-                if (userData) dispatch(login(userData))
-                navigate("/")
+                console.log(userData);
+                if (userData) {
+                    dispatch(login(userData))
+                    // console.log(userData);
+                    // console.log("true");
+                    window.location.href = "/"
+                    // navigate("/")
+                }
             }
         } catch (error) {
             setError(error.message)
