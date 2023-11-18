@@ -17,7 +17,7 @@ function Home() {
         }
     }, [authStatus]);
 
-    if (authStatus===false) {
+    if (authStatus === false) {
         return (
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
@@ -34,7 +34,17 @@ function Home() {
     } else {
         if (posts.length === 0) {
             return (
-                <h1 className='text-4xl font-bold font-sans text-center my-12'>No Posts Available! Create your Post Now</h1>
+                <div className="w-full py-8 mt-4 text-center">
+                    <Container>
+                        <div className="flex flex-wrap">
+                            <div className="p-2 w-full">
+                                <h1 className="text-2xl font-bold hover:text-gray-500">
+                                    No Posts Available! Create your Post Now
+                                </h1>
+                            </div>
+                        </div>
+                    </Container>
+                </div>
             );
         } else {
             return (

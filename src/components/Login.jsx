@@ -55,6 +55,7 @@ function Login() {
                     label="Email: "
                     placeholder="Enter your email"
                     type="email"
+                    id="email"
                     autoComplete="email"
                     {...register("email", {
                         required: true,
@@ -67,6 +68,7 @@ function Login() {
                     <Input
                     label="Password: "
                     type="password"
+                    id="password"
                     autoComplete="current-password"
                     placeholder="Enter your password"
                     {...register("password", {

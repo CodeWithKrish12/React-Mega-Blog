@@ -14,6 +14,8 @@ export default function Post() {
 
     const isAuthor = post && userData ? post.userId === userData.$id : false;
 
+    // console.log(isAuthor);
+
     useEffect(() => {
         if (slug) {
             service.getPost(slug).then((post) => {
@@ -42,7 +44,7 @@ export default function Post() {
                         className="rounded-xl"
                     />
 
-                    {isAuthor && (
+                    {isAuthor==true && (
                         <div className="absolute right-6 top-6">
                             <Link to={`/edit-post/${post.$id}`}>
                                 <Button bgColor="bg-green-500" className="mr-3">
