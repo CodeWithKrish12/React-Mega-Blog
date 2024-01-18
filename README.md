@@ -4,7 +4,7 @@ This is a full-stack React blog app that allows users to create, edit, and delet
 
 ## Live Demo
 
-Check out the live demo of this app hosted on [Netlify](https://appwritereactblog.vercel.app/).
+Check out the live demo of this app hosted on [Vercel](https://appwritereactblog.vercel.app/).
 
 ## Features
 
